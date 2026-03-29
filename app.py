@@ -27,4 +27,4 @@ def inicio():
 
     return render_template("index.html", resultado=resultado, mensaje=mensaje)
 
-app.run()
+app.run(host="0.0.0.0" , port=10000)

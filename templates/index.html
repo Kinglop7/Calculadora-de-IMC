@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora IMC</title>
+</head>
+<body>
+
+<h1>Calculadora de IMC</h1>
+
+<form method="POST">
+    <input type="text" name="nombre" placeholder="Tu nombre" required><br><br>
+    <input type="number" name="peso" placeholder="Peso (kg)" required><br><br>
+    <input type="number" name="altura" placeholder="Altura (cm)" required><br><br>
+
+    <button type="submit">Calcular</button>
+</form>
+
+<h2>{{ resultado }}</h2>
+<h3>{{ mensaje }}</h3>
+
+</body>
+</html>
